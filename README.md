@@ -1,0 +1,1 @@
+Developed a ETL pipeline that extracts detailed music metadata from the Spotify Web API using Spotipy, enabling automated retrieval of track, artist, and album attributes. Datasets were transformed and cleaned using Regex and loaded into a MySQL database via pymysql, creating a structured dataset of Spotify track metadata for analytical readiness.
