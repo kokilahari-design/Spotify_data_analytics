@@ -13,8 +13,8 @@ sp = spotipy.Spotify(auth_manager = SpotifyClientCredentials (
 # MySQL database connection
 dbconfig = {
     "host": "localhost",
-    "user": "root",
-    "password": "root",
+    "user": "root",                       # Type your username
+    "password": "root",                   # Type your password
     "database": "spotify_db"
 }
 
@@ -80,4 +80,5 @@ for track_url in track_urls:
     
 #Close the database connection
 cursor.close()
+
 connection.close()
